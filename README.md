@@ -10,7 +10,7 @@ Domain model describes bussiness rules, so I guess you are better off finding ou
 ```
 dotnet run --project HomeWork.Console
 ```
-Please make terminal window as big as possible because some absolute sizes may not match the terminal. \
+Please make terminal window as big as possible because some absolute sizes may not suit the terminal. \
 Also make sure that you press `<ENTER>` after entering a value. \
 (asking: Do not pay much attention on UI configuration cringe that I've done) \
 It runs like that: 
