@@ -1,5 +1,11 @@
 # Home Work 1, Designing Software course
 
+## Idea
+I've used Clean Architecture and DDD approaches for designing this project. \
+In short, this project performs inventory of the zoo. \
+Domain model describes bussiness rules, so I guess you are better off finding out them from there. \
+(The code is more verbose than words about the code).
+
 ## Run:
 ```
 dotnet run --project HomeWork.Console
