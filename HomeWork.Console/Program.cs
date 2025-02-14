@@ -131,13 +131,13 @@ builtErrorBlock.Element!.Observe(errorText);
 var table = new BindableDataTable<string?>(100, 1, null);
 builtPlayableTable.Element!.Observe(table);
 
-var foodText = new BindableObject<string?>(null);
+var foodText = new BindableObject<string?>("5");
 builtFoodBox.Element!.Bind(foodText);
 
-var kindnessText = new BindableObject<string?>(null);
+var kindnessText = new BindableObject<string?>("6");
 builtKindnessBox.Element!.Bind(kindnessText);
 
-var dateOfBirthText = new BindableObject<string?>(null);
+var dateOfBirthText = new BindableObject<string?>("12.10.2022");
 builtDateOfBirthBox.Element!.Bind(dateOfBirthText);
 
 var foodSumInfoText = new ObservableObject<string?>("0"); 
