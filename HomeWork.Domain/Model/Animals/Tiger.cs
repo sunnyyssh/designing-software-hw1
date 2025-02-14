@@ -4,7 +4,7 @@ public class Tiger : Predator
 {
     public override int Food { get; }
 
-    public Tiger(int food)
+    internal Tiger(int food, DateOnly dateOfBirth) : base(dateOfBirth)
     {
         Food = food;
     }

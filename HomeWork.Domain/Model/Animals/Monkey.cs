@@ -6,7 +6,7 @@ public class Monkey : Herbivore
 
     public override int Kindness { get; }
 
-    public Monkey(int food, int kindness)
+    internal Monkey(int food, int kindness, DateOnly dateOfBirth) : base(dateOfBirth)
     {
         Food = food;
         Kindness = kindness;
